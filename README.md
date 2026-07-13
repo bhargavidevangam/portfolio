@@ -18,7 +18,7 @@ A personal developer portfolio built to showcase my projects, technical skills, 
 
 ## Live Demo
 
-https://bhargavi-devangam-porfolio.netlify.app/
+https://bhargavi-devangam-portfolio.netlify.app/
 
 ---
 

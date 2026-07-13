@@ -16,6 +16,10 @@ import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
+const EMAILJS_SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
 function Contacts() {
     const [open, setOpen] = useState(false);
     const [errMsg, setErrMsg] = useState('');
@@ -118,16 +122,22 @@ function Contacts() {
             return;
         }
 
+        if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+            setErrMsg('Email service is not configured. Add EmailJS env variables.');
+            setOpen(true);
+            return;
+        }
+
         emailjs
             .send(
-                'service_ceyawow',   // 👉 replace with your EmailJS Service ID
-                'template_qcr51pc',  // 👉 replace with your Template ID
+                EMAILJS_SERVICE_ID,
+                EMAILJS_TEMPLATE_ID,
                 {
                     from_name: name,
                     from_email: email,
                     message: message,
                 },
-                'zvM2ZuKaBCNOTtCG2'    // 👉 replace with your EmailJS Public Key
+                EMAILJS_PUBLIC_KEY
             )
             .then(
                 (response) => {
