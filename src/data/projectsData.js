@@ -3,7 +3,7 @@ import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
 
-import six from '../assets/svg/projects/six.svg'
+
 
 
 

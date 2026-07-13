@@ -9,7 +9,7 @@ import {
     FaGithub,
 } from 'react-icons/fa';
 import { AiOutlineSend } from 'react-icons/ai';
-import { FiPhone, FiAtSign } from 'react-icons/fi';
+import {  FiAtSign } from 'react-icons/fi';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { socialsData } from '../../data/socialsData';
