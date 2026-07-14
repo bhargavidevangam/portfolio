@@ -1,7 +1,7 @@
 export const socialsData = {
     github: 'https://github.com/bhargavidevangam',
     //facebook: 'https://www.facebook.com/',
-    linkedIn: 'https://www.linkedin.com/in/bhargavi-devangam-518aa2214/',
+    linkedIn: 'https://www.linkedin.com/in/bhargavi-devangam/',
     //instagram: 'https://www.instagram.com/',
    // codepen: 'https://codepen.io/',
    // twitter: 'https://twitter.com/',

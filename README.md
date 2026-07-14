@@ -5,7 +5,7 @@ A personal developer portfolio built to showcase my projects, technical skills, 
 <p align="left">
   <img src="https://img.shields.io/badge/Role-Java%20Backend%20Developer-0A66C2" alt="Role" />
   <a href="https://github.com/bhargavidevangam"><img src="https://img.shields.io/badge/GitHub-bhargavidevangam-181717?logo=github" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/bhargavi-devangam-518aa2214/"><img src="https://img.shields.io/badge/LinkedIn-Bhargavi%20Devangam-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/bhargavi-devangam/"><img src="https://img.shields.io/badge/LinkedIn-Bhargavi%20Devangam-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <img src="https://img.shields.io/badge/React-17-61DAFB?logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=111" alt="JavaScript" />
   <img src="https://img.shields.io/badge/CSS3-Styled-1572B6?logo=css3&logoColor=white" alt="CSS3" />
